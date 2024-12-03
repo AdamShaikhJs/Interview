@@ -1,0 +1,39 @@
+# Ignore all node_modules directories
+**/node_modules
+
+# Ignore other dependencies
+/.pnp
+.pnp.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+build/
+dist/
+out/
+
+# Cache
+.cache/
+*.cache
+
+# Coverage
+coverage/
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
